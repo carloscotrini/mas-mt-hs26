@@ -1,0 +1,19 @@
+title: "Master thesis selection — <<TODO: course name>>"
+description: "Publicly verifiable random draw for master thesis places."
+remote_theme: just-the-docs/just-the-docs
+
+# GitHub Pages serves this site from the /docs folder on the main branch.
+plugins:
+  - jekyll-remote-theme
+
+# Only the contents of /docs is the site; nothing else in the repo is built.
+exclude:
+  - "*.py"
+  - "scripts/"
+  - "tests/"
+
+aux_links:
+  "View on GitHub":
+    - "<<TODO: https://github.com/<org-or-user>/mas-mt-hs26>>"
+
+color_scheme: light

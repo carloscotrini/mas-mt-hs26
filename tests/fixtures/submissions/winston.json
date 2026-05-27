@@ -1,0 +1,17 @@
+[
+  {
+    "id": "a1f3c9d2b7e4f8a0",
+    "topic": "Provable convergence of Adam in convex settings",
+    "submitted_at": "2026-06-10T14:23:00Z"
+  },
+  {
+    "id": "b2e4d0a3c8f5091b",
+    "topic": "Sparse attention kernels for long-context transformers",
+    "submitted_at": "2026-06-11T09:05:00Z"
+  },
+  {
+    "id": "c3f5e1b4d9061a2c",
+    "topic": "Differentially private federated averaging",
+    "submitted_at": "2026-06-11T16:40:00Z"
+  }
+]

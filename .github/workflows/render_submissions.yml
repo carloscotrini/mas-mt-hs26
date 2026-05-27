@@ -1,0 +1,44 @@
+name: render-submissions
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "submissions/**"
+      - "tas.yml"
+      - "scripts/render_submissions_table.py"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Regenerate docs/submissions.md
+        run: python scripts/render_submissions_table.py
+
+      - name: Open a PR with the regenerated table (if it changed)
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore: regenerate docs/submissions.md"
+          title: "Regenerate live submissions table"
+          body: |
+            Automated update of `docs/submissions.md` from `submissions/*.json`.
+          branch: bot/render-submissions
+          add-paths: docs/submissions.md
+          delete-branch: true

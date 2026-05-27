@@ -1,0 +1,7 @@
+{
+  "placeholder": true,
+  "previous_signature": "<<TODO: filled at draw time by scripts/fetch_beacon.py>>",
+  "randomness": "<<TODO: filled at draw time by scripts/fetch_beacon.py>>",
+  "round": 0,
+  "signature": "<<TODO: filled at draw time by scripts/fetch_beacon.py>>"
+}

@@ -1,0 +1,26 @@
+# Code owners for the thesis-selection repository.
+# Carlos must review all procedural, script, and infrastructure changes.
+# Each TA owns only their own submission pool and profile page.
+#
+# Replace <<TODO: @carlos-github-handle>> and the @ta-* handles below with real
+# GitHub usernames. Keep this list in sync with tas.yml.
+
+# --- Default: Carlos reviews everything not matched by a more specific rule ---
+*                       <<TODO: @carlos-github-handle>>
+
+# --- Core draw and verification logic ---
+/selection.py           <<TODO: @carlos-github-handle>>
+/verify_draw.py         <<TODO: @carlos-github-handle>>
+/scripts/               <<TODO: @carlos-github-handle>>
+/.github/               <<TODO: @carlos-github-handle>>
+/PROCEDURE.md           <<TODO: @carlos-github-handle>>
+/docs/index.md          <<TODO: @carlos-github-handle>>
+/docs/procedure.md      <<TODO: @carlos-github-handle>>
+/docs/_config.yml       <<TODO: @carlos-github-handle>>
+
+# --- Per-TA ownership (each TA owns their pool file and profile page) ---
+# A later, more specific rule wins, so these override the default above.
+/submissions/winston.json   <<TODO: @winston-github-handle>>
+/docs/tas/winston.md        <<TODO: @winston-github-handle>>
+/submissions/alice.json     <<TODO: @alice-github-handle>>
+/docs/tas/alice.md          <<TODO: @alice-github-handle>>
