@@ -27,10 +27,10 @@ jobs:
       - name: Verify the draw (only when beacon and result are filled)
         run: |
           python - <<'PY'
-          import json, sys
+          import json, subprocess, sys
           from pathlib import Path
 
-          def filled(path):
+          def filled(path: str) -> bool:
               try:
                   data = json.loads(Path(path).read_text(encoding="utf-8"))
               except FileNotFoundError:
@@ -39,15 +39,6 @@ jobs:
 
           if filled("beacon.json") and filled("result.json"):
               print("beacon.json and result.json are filled: running verify_draw.py")
-              sys.exit(0)
-          print("Placeholder beacon/result: skipping verify_draw.py")
-          sys.exit(78)
+              sys.exit(subprocess.run([sys.executable, "verify_draw.py"]).returncode)
+          print("Placeholder beacon/result: skipping verify_draw.py (pre-draw state).")
           PY
-          status=$?
-          if [ "$status" -eq 0 ]; then
-            python verify_draw.py
-          elif [ "$status" -eq 78 ]; then
-            echo "Skipped (pre-draw state)."
-          else
-            exit "$status"
-          fi
