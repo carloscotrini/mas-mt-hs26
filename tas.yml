@@ -1,0 +1,17 @@
+# Teaching assistants participating in this selection round.
+#
+# The supervisor must replace the example entries below with the real TAs.
+# For each TA there must be:
+#   - a pool file  submissions/<slug>.json   (start it as [])
+#   - a profile    docs/tas/<slug>.md
+#   - a CODEOWNERS entry granting them ownership of those two files
+#
+# Fields:
+#   slug: lowercase identifier, no spaces. Used for filenames.
+#   name: human-readable display name (shown on TA pages, never in the
+#         public submissions table).
+tas:
+  - slug: winston       # <<TODO: replace with real TA slug>>
+    name: "<<TODO: Winston Full Name>>"
+  - slug: alice         # <<TODO: replace with real TA slug>>
+    name: "<<TODO: Alice Full Name>>"

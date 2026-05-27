@@ -1,0 +1,40 @@
+{
+  "beacon_randomness": "7e1f4c2a9b8d3e5f60718293a4b5c6d7e8f90a1b2c3d4e5f60718293a4b5c6d7",
+  "beacon_round": 9876543,
+  "selections": {
+    "alice": [
+      {
+        "id": "e5172b3d061c2cea",
+        "rank": 1,
+        "score": "3b8e8d3bdc7d50802393eec8c22e0c179a06baf2bffecf8c381a0f1166c40d03",
+        "topic": "Type-directed program synthesis for data pipelines"
+      },
+      {
+        "id": "d4061a2cf5e1b4d9",
+        "rank": 2,
+        "score": "7dfff60b5a1d5e005183af9e968d84c54ae6238580a9fda1ba8d6d0d6f67a252",
+        "topic": "Formal verification of a RISC-V cache coherence protocol"
+      }
+    ],
+    "winston": [
+      {
+        "id": "a1f3c9d2b7e4f8a0",
+        "rank": 1,
+        "score": "16daf15b156678f0b529629c3be5ca14ec679d7b5de29244125c74fa3f04301b",
+        "topic": "Provable convergence of Adam in convex settings"
+      },
+      {
+        "id": "c3f5e1b4d9061a2c",
+        "rank": 2,
+        "score": "8a6929f3ef6c73e79c5f0253d3cadacd6b625ba27bbeb68438afbaa7aab34383",
+        "topic": "Differentially private federated averaging"
+      },
+      {
+        "id": "b2e4d0a3c8f5091b",
+        "rank": 3,
+        "score": "b03ade66eb555ef0e5e9bbb3ecd780cc489438764c0e39ecf244e7efca45c43f",
+        "topic": "Sparse attention kernels for long-context transformers"
+      }
+    ]
+  }
+}
