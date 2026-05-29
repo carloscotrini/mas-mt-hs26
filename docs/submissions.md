@@ -10,7 +10,27 @@ This page is generated automatically from the canonical submission pools in
 and topic. Participant names are never published here.
 
 
-## <<TODO: Alice Full Name>>
+## christina
+
+_No submissions yet._
+
+
+## <<TODO: Daniele Full Name>>
+
+_No submissions yet._
+
+
+## <<TODO: Francesco Full Name>>
+
+_No submissions yet._
+
+
+## <<TODO: Ghali Full Name>>
+
+_No submissions yet._
+
+
+## <<TODO: Syrmatenia Full Name>>
 
 _No submissions yet._
 
