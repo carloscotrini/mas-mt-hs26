@@ -20,7 +20,11 @@
 
 # --- Per-TA ownership (each TA owns their pool file and profile page) ---
 # A later, more specific rule wins, so these override the default above.
-/submissions/winston.json   <<TODO: @winston-github-handle>>
-/docs/tas/winston.md        <<TODO: @winston-github-handle>>
-/submissions/alice.json     <<TODO: @alice-github-handle>>
-/docs/tas/alice.md          <<TODO: @alice-github-handle>>
+/submissions/christina.json   <<TODO: @christina-github-handle>>
+/docs/tas/christina.md        <<TODO: @christina-github-handle>>
+/submissions/ghali.json       <<TODO: @ghali-github-handle>>
+/docs/tas/ghali.md            <<TODO: @ghali-github-handle>>
+/submissions/francesco.json   <<TODO: @francesco-github-handle>>
+/docs/tas/francesco.md        <<TODO: @francesco-github-handle>>
+/submissions/syrmatenia.json  <<TODO: @syrmatenia-github-handle>>
+/docs/tas/syrmatenia.md       <<TODO: @syrmatenia-github-handle>>
