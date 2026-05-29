@@ -11,7 +11,13 @@
 #   name: human-readable display name (shown on TA pages, never in the
 #         public submissions table).
 tas:
-  - slug: winston       # <<TODO: replace with real TA slug>>
+  - slug: winston
     name: "<<TODO: Winston Full Name>>"
-  - slug: alice         # <<TODO: replace with real TA slug>>
-    name: "<<TODO: Alice Full Name>>"
+  - slug: daniele
+    name: "<<TODO: Daniele Full Name>>"
+  - slug: francesco
+    name: "<<TODO: Francesco Full Name>>"
+  - slug: syrmatenia
+    name: "<<TODO: Syrmatenia Full Name>>"
+  - slug: ghali
+    name: "<<TODO: Ghali Full Name>>"
